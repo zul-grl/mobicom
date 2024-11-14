@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.content {
+  width: calc(100vw-94px);
+  display: flex;
+  flex-direction: column;
+  margin: 0 47px;
+}
+.header {
+  background-color: rgba(0, 0, 0, 0.789);
+  height: 72px;
+  margin: 20px 0;
+  padding: 16px 24px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.back {
+  height: 808px;
+  border-radius: 20px;
+  display: flex;
+  padding: 144px;
+  justify-content: space-between;
+}
+.section {
+  height: 666px;
+  width: calc(100vw-97px);
+  margin: 0 47px;
+  background-color: grey;
+}
+.special {
+  position: relative;
+}
+.cards {
+  width: 100vw;
+  max-height: 637px;
+  height: 100%;
+  padding: 64px;
+  position: absolute;
+  top: 224px;
+  background-color: aqua;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  overflow: scroll;
+}
+.card {
+  max-width: 349px;
+  max-height: 509px;
+  width: 100%;
+  height: 100%;
+  background-color: pink;
+}
+.back {
+  background-image: url(./background.webp);
+}
+.logo {
+  width: 64px;
+  height: 34px;
+  cursor: pointer;
+}
+.logo img {
+  width: 100%;
+  height: 100%;
+}
+.icon-search {
+  display: flex;
+  align-items: center;
+  background-color: rgba(61 61 61);
+  margin-left: 35px;
+  border-radius: 15px;
+  width: 221px;
+  height: auto;
+  padding: 4px 20px;
+  gap: 8px;
+}
+.search {
+  display: flex;
+}
+.search input {
+  background-color: transparent;
+  border: none;
+}
+.news {
+  display: flex;
+  width: 400px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+}
+.news div {
+  padding: 8px 16px;
+  color: white;
+}
+.news div:hover {
+  background-color: rgba(61 61 61);
+  border-radius: 10px;
+}
+.header-icon {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.header-icon svg,
+.header-icon img {
+  width: 40px;
+  height: 40px;
+  fill: white;
+  padding: 8px;
+  background-color: rgba(61 61 61);
+  border-radius: 10px;
+}
+.simple p {
+  color: rgb(246, 249, 251);
+  font-size: 55px;
+}
+.simple {
+  display: flex;
+  align-items: end;
+}
+.service-section {
+  width: 522px;
+  height: 520px;
+}
+.easy {
+  max-width: 483px;
+  width: 100%;
+  height: 52px;
+  background-color: rgba(61 61 61);
+  border-radius: 20px;
+  border: 8px white solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
